@@ -7,5 +7,5 @@
 | Detecting Cycles           | True           | Moderate   | Java     |
 | Longest Lines              | True           | Moderate   | Java     |
 | Longest Common Subsequence | Partially(90%) | Hard       | Java     |
-| Prefix Expressions         | Partially(90%) | Hard       | Java     |
+| Prefix Expressions         | True           | Hard       | Java     |
 | Ugly Numbers               | True           | Hard       | Java     |

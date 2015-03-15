@@ -14,32 +14,32 @@ public class Main {
             
             for(int i = splitLine.length - 1; i > -1; i--) {
             	String current = splitLine[i];
-            	int num = 0;
+            	double num = 0;
             	if(current.equals("+")) {
-            		num = Integer.parseInt(prefixNotation.pop());
-            		num += Integer.parseInt(prefixNotation.pop());
-            		prefixNotation.push(Integer.toString(num));
+            		num = Double.parseDouble(prefixNotation.pop());
+            		num += Double.parseDouble(prefixNotation.pop());
+            		prefixNotation.push(Double.toString(num));
             	}
             	else if(current.equals("*")) {
-            		num = Integer.parseInt(prefixNotation.pop());
-            		num *= Integer.parseInt(prefixNotation.pop());
-            		prefixNotation.push(Integer.toString(num));
+            		num = Double.parseDouble(prefixNotation.pop());
+            		num *= Double.parseDouble(prefixNotation.pop());
+            		prefixNotation.push(Double.toString(num));
             	}
             	else if(current.equals("/")) {
-            		num = Integer.parseInt(prefixNotation.pop());
-            		num /= Integer.parseInt(prefixNotation.pop());
-            		prefixNotation.push(Integer.toString(num));
+            		num = Double.parseDouble(prefixNotation.pop());
+            		num /= Double.parseDouble(prefixNotation.pop());
+            		prefixNotation.push(Double.toString(num));
             	}
             	else if(current.equals("-")) {
-            		num = Integer.parseInt(prefixNotation.pop());
-            		num -= Integer.parseInt(prefixNotation.pop());
-            		prefixNotation.push(Integer.toString(num));
+            		num = Double.parseDouble(prefixNotation.pop());
+            		num -= Double.parseDouble(prefixNotation.pop());
+            		prefixNotation.push(Double.toString(num));
             	}
             	else {
             		prefixNotation.push(current);
             	}
             }
-            System.out.println(prefixNotation.pop());
+            System.out.print((int)Math.round(Double.parseDouble(prefixNotation.pop())) + "\n");
         }
     }
 }
