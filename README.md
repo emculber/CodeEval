@@ -13,3 +13,4 @@
 | 18        | Multiples Of A Number      | Partially(40%) | Easy       | 429      | 6,434,816     | 11.551 / 35    | Java     |
 | 20        | LowerCase                  | Solved         | Easy       | 1        | 568           | 34.998 / 35    | C        |
 | 42        | Ugly Numbers               | Solved         | Hard       | 5,441    | 6,164,480     | 58.095 / 100   | Java     |
+| 75        | Flavius Josephus           | Solved         | Moderate   | 1        | 568           | 64.993 / 65    | C        |
